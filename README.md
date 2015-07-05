@@ -12,14 +12,13 @@ e.g.
 
 	./run.sh 4 sampleData/sampleAligned.train sampleData/sampleAligned.test
 
-Modify all the local paths etc. in:
+Modify/adjust all the local paths etc. in:
 
-decodeMany.py  
+_decodeMany.py_
 
 and
 
-makeAlignmentsForCrfMultiple.py
-
+_makeModelMultiple_Kmodels.sh_
 
 The output will be in a file **transduced.dat**
 
